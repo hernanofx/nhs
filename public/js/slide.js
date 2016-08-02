@@ -1,4 +1,4 @@
-// Automatic Slideshow - change image every 4 seconds
+// Automatic Slideshow - change image every 6 seconds
 var myIndex = 0;
 carousel();
 
@@ -13,5 +13,5 @@ function carousel() {
         myIndex = 1
     }
     x[myIndex - 1].style.display = "block";
-    setTimeout(carousel, 4000);
+    setTimeout(carousel, 6000);
 }
